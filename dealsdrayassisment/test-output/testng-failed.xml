@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="websiteopeningindifferenbrowser.Safari">
+        <methods>
+          <include name="resoultion1366768"/>
+          <include name="resoultion1536864"/>
+          <include name="resoultion19201080"/>
+        </methods>
+      </class> <!-- websiteopeningindifferenbrowser.Safari -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
